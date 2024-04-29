@@ -1,5 +1,5 @@
 {
   "name": "@kt3k/hello",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "exports": "./main.ts"
 }
