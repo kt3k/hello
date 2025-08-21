@@ -4,4 +4,5 @@ export function hello() {
 }
 if (import.meta.main) {
   hello();
+  Deno.serve(() => new Response("hello"));
 }

@@ -1,4 +1,4 @@
 version: 0.0.6
-commit: '%.%.%'
+commit: "%.%.%"
 files:
   deno.json: '"version": "%.%.%"'
