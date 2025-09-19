@@ -3,7 +3,7 @@ export function hello() {
   console.log("hello");
 }
 
-declare const Deno: { unrefTimer(id: number): void };
+declare const Deno: { unrefTimer(id: number): void, serve(cb: () => void): void };
 
 if (import.meta.main) {
   hello();
